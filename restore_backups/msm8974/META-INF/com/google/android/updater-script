@@ -1,0 +1,3 @@
+package_extract_file("restore_backups.sh", "/data/local/tmp/restore_backups.sh");
+set_perm(0,0,0777,"/data/local/tmp/restore_backups.sh");
+assert(run_program("/system/bin/sh","/data/local/tmp/restore_backups.sh") ==0);

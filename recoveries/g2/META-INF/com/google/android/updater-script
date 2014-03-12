@@ -1,0 +1,2 @@
+package_extract_file("recovery.img", "/dev/block/platform/msm_sdcc.1/by-name/recovery");
+package_extract_file("recovery.img", "/data/local/tmp/recovery.img");

@@ -1,0 +1,11 @@
+package_extract_file("loki_patch", "/data/local/tmp/loki_patch");
+package_extract_file("loki_flash", "/data/local/tmp/loki_flash");
+package_extract_file("zip", "/data/local/tmp/zip");
+package_extract_file("unzip", "/data/local/tmp/unzip");
+package_extract_file("loki_update_zip.sh", "/data/local/tmp/loki_update_zip.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_update_zip.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_patch");
+set_perm(0,0,0777,"/data/local/tmp/loki_flash");
+set_perm(0,0,0777,"/data/local/tmp/zip");
+set_perm(0,0,0777,"/data/local/tmp/unzip");
+assert(run_program("/system/bin/sh","/data/local/tmp/loki_update_zip.sh") == 0);

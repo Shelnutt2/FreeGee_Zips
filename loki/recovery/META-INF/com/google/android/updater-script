@@ -1,0 +1,7 @@
+package_extract_file("loki_patch", "/data/local/tmp/loki_patch");
+package_extract_file("loki_flash", "/data/local/tmp/loki_flash");
+package_extract_file("loki_recovery.sh", "/data/local/tmp/loki_recovery.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_recovery.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_patch");
+set_perm(0,0,0777,"/data/local/tmp/loki_flash");
+assert(run_program("/system/bin/sh","/data/local/tmp/loki_recovery.sh") == 0);

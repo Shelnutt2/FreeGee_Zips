@@ -1,0 +1,5 @@
+package_extract_file("loki_check", "/data/local/tmp/loki_check");
+package_extract_file("loki_check.sh", "/data/local/tmp/loki_check.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_check.sh");
+set_perm(0,0,0777,"/data/local/tmp/loki_check");
+assert(run_program("/system/bin/sh","/data/local/tmp/loki_check.sh") == 0);

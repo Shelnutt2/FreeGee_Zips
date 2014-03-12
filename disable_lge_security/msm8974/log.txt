@@ -1,0 +1,141 @@
+/system/bin/cp
+constants.CP_COMMAND is /system/bin/cp
+WARNING: generic atexit() called from legacy shared library
+WARNING: generic atexit() called from legacy shared library
+WARNING: generic atexit() called from legacy shared library
+WARNING: generic atexit() called from legacy shared library
+WARNING: generic atexit() called from legacy shared library
+/data/local/tmp/edifier
+/data/local/tmp/busybox
+/data/local/tmp/busybox
+/data/local/tmp/mkbootimg
+/data/local/tmp/unpackbootimg
+Download id from start is: 301
+Download id from completition is: 301
+Downloaded file path is: /storage/emulated/0/freegee/devices2.xml
+DeviceXML is: /storage/emulated/0/freegee/devices2.xml
+Device Name: LG G2
+Device Model: LG-LS980
+Software Version: LS980ZV7
+Checking for loki support
+Current actions are: loki_check, 
+Calculated digest: 24ca4d079b533dc2c96e8b05ee210aeb
+Provided digest: 24ca4d079b533dc2c96e8b05ee210aeb
+Using predownloaded loki_check
+Running check for loki support through zip
+about to run program [/system/bin/sh] with 2 args
+2048+0 records in
+2048+0 records out
+1048576 bytes transferred in 0.051 secs (20560313 bytes/sec)
+[+] Detected target Sprint LG G2 build LS980ZV7
+script result was []
+path is /storage/emulated/legacy/freegee//loki_check.zip
+Path was /storage/emulated/legacy/freegee//loki_check.zip
+Finding update package...
+I:Update location: /storage/emulated/legacy/freegee//loki_check.zip
+Opening update package...
+I:1 key(s) loaded from /data/local/tmp/keys
+Verifying update package...
+I:comment is 1738 bytes; signature 1720 bytes from end
+I:whole-file signature verified against key 0
+I:verify_file returned 0
+path is: /storage/emulated/legacy/freegee//loki_check.zip
+Installing update...
+Exit code is: 0
+This device is supported by loki
+Current actions are: loki_boot, 
+Calculated digest: 74af8de898159bb4bdfd058f4b858844
+Provided digest: 74af8de898159bb4bdfd058f4b858844
+Using predownloaded loki_boot
+Current actions are: Disable LGE Security, loki_boot, 
+Calculated digest: 47ddc31cfceeecfa874a08088a070189
+Provided digest: 5703e321c9dffd46b623284f03f1a8ef
+Downloading Disable LGE Security
+Download id from start is: 302
+Download id from completition is: 302
+Downloaded file path is: /storage/emulated/0/freegee/disable_lge_security_msm8974.zip
+Matching action
+Action matches as: Disable LGE Security
+Calculated digest: 5703e321c9dffd46b623284f03f1a8ef
+Provided digest: 5703e321c9dffd46b623284f03f1a8ef
+Current list of actionDownloads are: Disable LGE Security, loki_boot, 
+Current size actionDownloads is: 2
+Current number of actionsleft is: 2
+Current stauts of allActionsDownloads is: true
+actionDownloads size: 2
+actionOrder size: 2
+actionsleft: 2
+allActionsDownloads is: true
+Performing action: Disable LGE Security
+about to run program [/system/bin/sh] with 2 args
+32768+0 records in
+32768+0 records out
+16777216 bytes (16.0MB) copied, 1.266818 seconds, 12.6MB/s
+Android magic found at: 0
+BOARD_KERNEL_CMDLINE console=ttyHSL0,115200,n8 androidboot.hardware=g2 user_debug=31 msm_rtb.filter=0x0
+BOARD_KERNEL_BASE 00000000
+BOARD_RAMDISK_OFFSET 0f813460
+BOARD_SECOND_OFFSET 00f00000
+BOARD_TAGS_OFFSET 04800000
+BOARD_PAGE_SIZE 2048
+BOARD_SECOND_SIZE 0
+BOARD_DT_SIZE 538624
+cp: can't stat '/data/local/tmp/boot.img-ramdisk.lz4': No such file or directory
+Error 12 : Pb opening /data/local/tmp/boot-working/boot.img-ramdisk.lz4
+rm: can't remove '/data/local/tmp/boot-working/boot.img-ramdisk.lz4': No such file or directory
+WARNING: generic atexit() called from legacy shared library
+sed: -i requires an argument
+WARNING: generic atexit() called from legacy shared library
+sed: no address after comma
+WARNING: generic atexit() called from legacy shared library
+sed: no address after comma
+19712+0 records in
+19712+0 records out
+10092544 bytes (9.6MB) copied, 1.376242 seconds, 7.0MB/s
+script result was []
+path is /storage/emulated/legacy/freegee//disable_lge_security_msm8974.zip
+Path was /storage/emulated/legacy/freegee//disable_lge_security_msm8974.zip
+Finding update package...
+I:Update location: /storage/emulated/legacy/freegee//disable_lge_security_msm8974.zip
+Opening update package...
+I:1 key(s) loaded from /data/local/tmp/keys
+Verifying update package...
+I:comment is 1738 bytes; signature 1720 bytes from end
+I:whole-file signature verified against key 0
+I:verify_file returned 0
+path is: /storage/emulated/legacy/freegee//disable_lge_security_msm8974.zip
+Installing update...
+Exit code is: 0
+actionsleft is: 1
+Performing action: loki_boot
+about to run program [/system/bin/sh] with 2 args
+2048+0 records in
+2048+0 records out
+1048576 bytes transferred in 0.049 secs (21399510 bytes/sec)
+32768+0 records in
+32768+0 records out
+16777216 bytes transferred in 1.085 secs (15462871 bytes/sec)
+[+] loki_patch v2.1
+[+] Detected target Sprint LG G2 build LS980ZV7
+[+] Original kernel address: 00008000
+[+] Original ramdisk address: 0f813460
+[+] Writing device tree.
+[+] Output file written to /data/local/tmp/loki_tmpdir/boot.lok
+[+] loki_flash v2.1
+[+] Loki validation passed, flashing image.
+[+] Loki flashing complete!
+script result was []
+path is /storage/emulated/legacy/freegee//loki_boot.zip
+Path was /storage/emulated/legacy/freegee//loki_boot.zip
+Finding update package...
+I:Update location: /storage/emulated/legacy/freegee//loki_boot.zip
+Opening update package...
+I:1 key(s) loaded from /data/local/tmp/keys
+Verifying update package...
+I:comment is 1738 bytes; signature 1720 bytes from end
+I:whole-file signature verified against key 0
+I:verify_file returned 0
+path is: /storage/emulated/legacy/freegee//loki_boot.zip
+Installing update...
+Exit code is: 0
+actionsleft is: 0

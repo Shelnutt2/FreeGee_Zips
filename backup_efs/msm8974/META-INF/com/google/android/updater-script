@@ -1,0 +1,3 @@
+package_extract_file("efsbackup.sh", "/data/local/tmp/efsbackup.sh");
+set_perm(0,0,0777,"/data/local/tmp/efsbackup.sh");
+assert(run_program("/system/bin/sh","/data/local/tmp/efsbackup.sh") == 0);

@@ -1,0 +1,13 @@
+package_extract_file("unpackbootimg", "/data/local/tmp/unpackbootimg");
+package_extract_file("mkbootimg", "/data/local/tmp/mkbootimg");
+package_extract_file("lz4c", "/data/local/tmp/lz4c");
+package_extract_file("lz4elix", "/data/local/tmp/lz4elix");
+package_extract_file("gzip", "/data/local/tmp/gzip");
+package_extract_file("disable_lge_security.sh", "/data/local/tmp/disable_lge_security.sh");
+set_perm(0,0,0777,"/data/local/tmp/unpackbootimg");
+set_perm(0,0,0777,"/data/local/tmp/mkbootimg");
+set_perm(0,0,0777,"/data/local/tmp/lz4c");
+set_perm(0,0,0777,"/data/local/tmp/lz4elix");
+set_perm(0,0,0777,"/data/local/tmp/gzip");
+set_perm(0,0,0777,"/data/local/tmp/disable_lge_security.sh");
+assert(run_program("/system/bin/sh","/data/local/tmp/disable_lge_security.sh") == 0);

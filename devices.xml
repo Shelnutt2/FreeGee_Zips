@@ -1,0 +1,3781 @@
+<devices>
+   <devices>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>Att</string>
+         </carrier>
+         <model>LG-E970</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e970.zip</zipfile>
+               <zipfilelocation>LG-E970/cwm-6.0.4.5-e970.zip</zipfilelocation>
+               <md5sum>3ce6fbe8bfa20c21c33e24fa60a58761</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e970.zip</zipfile>
+               <zipfilelocation>LG-E970/twrp-2.6.3.0-e970.zip</zipfilelocation>
+               <md5sum>562bb173b0b1eb81291ac2af7f480054</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>Telus</string>
+            <string>Rogers</string>
+            <string>Bell</string>
+         </carrier>
+         <model>LG-E971</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e973.zip</zipfile>
+               <zipfilelocation>LG-E973/cwm-6.0.4.5-e973.zip</zipfilelocation>
+               <md5sum>95d208bf1ccd8b669c24234ad7062034</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e973.zip</zipfile>
+               <zipfilelocation>LG-E973/twrp-2.6.3.0-e973.zip</zipfilelocation>
+               <md5sum>b1b09ab7c12912bf1c53a3b98e8367e5</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>Telus</string>
+            <string>Rogers</string>
+            <string>Bell</string>
+         </carrier>
+         <model>LG-E973</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e973.zip</zipfile>
+               <zipfilelocation>LG-E973/cwm-6.0.4.5-e973.zip</zipfilelocation>
+               <md5sum>95d208bf1ccd8b669c24234ad7062034</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Optimus G Unlock</name>
+                     <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>og_unlock.zip</zipfile>
+                     <zipfilelocation>og_unlock.zip</zipfilelocation>
+                     <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e973.zip</zipfile>
+               <zipfilelocation>LG-E973/twrp-2.6.3.0-e973.zip</zipfilelocation>
+               <md5sum>b1b09ab7c12912bf1c53a3b98e8367e5</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E975</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/cwm-6.0.4.5-e975.zip</zipfilelocation>
+               <md5sum>f92e000b33bb3a34ce10f43adb5efbab</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/twrp-2.6.3.0-e975.zip</zipfilelocation>
+               <md5sum>7ccc5764295ee1777b5e583500a5717b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E975K</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/cwm-6.0.4.5-e975.zip</zipfilelocation>
+               <md5sum>f92e000b33bb3a34ce10f43adb5efbab</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/twrp-2.6.3.0-e975.zip</zipfilelocation>
+               <md5sum>7ccc5764295ee1777b5e583500a5717b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E976</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/cwm-6.0.4.5-e975.zip</zipfilelocation>
+               <md5sum>f92e000b33bb3a34ce10f43adb5efbab</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/twrp-2.6.3.0-e975.zip</zipfilelocation>
+               <md5sum>7ccc5764295ee1777b5e583500a5717b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E977</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/cwm-6.0.4.5-e975.zip</zipfilelocation>
+               <md5sum>f92e000b33bb3a34ce10f43adb5efbab</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/twrp-2.6.3.0-e975.zip</zipfilelocation>
+               <md5sum>7ccc5764295ee1777b5e583500a5717b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>Sprint</string>
+         </carrier>
+         <model>LG-LS970</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-ls970.zip</zipfile>
+               <zipfilelocation>LG-LS970/cwm-6.0.4.5-ls970.zip</zipfilelocation>
+               <md5sum>6931a1d6a527fb46f1cfbb6ec000250f</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-ls970.zip</zipfile>
+               <zipfilelocation>LG-LS970/twrp-2.6.3.0-ls970.zip</zipfilelocation>
+               <md5sum>484b331c3f7d8cdb323ca312474f39d4</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F180L</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-180l.zip</zipfile>
+               <zipfilelocation>LG-180L/cwm-6.0.4.5-180l.zip</zipfilelocation>
+               <md5sum>0a0e9fcfecd53b46e7963cce75a8b3cf</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-180l.zip</zipfile>
+               <zipfilelocation>LG-180L/twrp-2.6.3.0-180l.zip</zipfilelocation>
+               <md5sum>12d75351a4e907991c05e7aa3b026f3c</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F180S</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-180s.zip</zipfile>
+               <zipfilelocation>LG-180S/twrp-2.6.3.0-180s.zip</zipfilelocation>
+               <md5sum>a106834659fdcb19d4f04115f7ac1027</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F180K</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-180k.zip</zipfile>
+               <zipfilelocation>LG-180K/cwm-6.0.4.5-180k.zip</zipfilelocation>
+               <md5sum>2e59251fa600bed0de7e822eef5551ed</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-180k.zip</zipfile>
+               <zipfilelocation>LG-180K/twrp-2.6.3.0-180k.zip</zipfilelocation>
+               <md5sum>53983f2e6a4ac142a2390e7b6740d66c</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-180s.zip</zipfile>
+               <zipfilelocation>LG-180S/cwm-6.0.4.5-180s.zip</zipfilelocation>
+               <md5sum>544eff71a4f6e5403653f7cc7b0fbfd0</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E980</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E980h</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E986</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E987</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Optimus G Unlock</name>
+               <description>This will unlock you device using the ics sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>og_unlock.zip</zipfile>
+               <zipfilelocation>og_unlock.zip</zipfilelocation>
+               <md5sum>8aabd707db2af3c909c9ffe5762dd406</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Mako Unlock</name>
+               <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+               <version>1</version>
+               <zipfile>mako_unlock.zip</zipfile>
+               <zipfilelocation>mako_unlock.zip</zipfilelocation>
+               <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <dependencies>
+                  <action>
+                     <name>Disable LGE Security</name>
+                     <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                     <version>1</version>
+                     <zipfile>disable_lge_security_og.zip</zipfile>
+                     <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                     <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                  </action>
+                  <action>
+                     <name>Backup EFS</name>
+                     <description>This will backup your efs partitions, which contain your network values</description>
+                     <version>1</version>
+                     <zipfile>backup_efs_apq8064.zip</zipfile>
+                     <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                     <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>false</hidden>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_og.zip</zipfile>
+               <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+               <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Fix stock recovery</name>
+               <description>This will fix the stock recovery to boot with an unlocked bootloader</description>
+               <version>1</version>
+               <zipfile>fix_stock_recovery_og.zip</zipfile>
+               <zipfilelocation>fix_stock_recovery_og.zip</zipfilelocation>
+               <md5sum>a73e8c282a8d20ffcacb6c6b6ec56599</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/cwm-6.0.4.5-e975.zip</zipfilelocation>
+               <md5sum>f92e000b33bb3a34ce10f43adb5efbab</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3 and unlock your device as necessary.</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e975.zip</zipfile>
+               <zipfilelocation>LG-E975/twrp-2.6.3.0-e975.zip</zipfilelocation>
+               <md5sum>7ccc5764295ee1777b5e583500a5717b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <dependencies>
+                  <action>
+                     <name>Mako Unlock</name>
+                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
+                     <version>1</version>
+                     <zipfile>mako_unlock.zip</zipfile>
+                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
+                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
+                     <stockOnly>true</stockOnly>
+                     <hidden>true</hidden>
+                     <dependencies>
+                        <action>
+                           <name>Disable LGE Security</name>
+                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+                           <version>1</version>
+                           <zipfile>disable_lge_security_og.zip</zipfile>
+                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
+                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
+                           <stockOnly>true</stockOnly>
+                           <hidden>true</hidden>
+                        </action>
+                        <action>
+                           <name>Backup EFS</name>
+                           <description>This will backup your efs partitions, which contain your network values</description>
+                           <version>1</version>
+                           <zipfile>backup_efs_apq8064.zip</zipfile>
+                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+                           <stockOnly>false</stockOnly>
+                           <hidden>false</hidden>
+                        </action>
+                     </dependencies>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Re-lock (restore backups)</name>
+               <description>This will relock your phone and put back stock recovery and stock boot if they exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_og.zip</zipfile>
+               <zipfilelocation>restore_backups_og.zip</zipfilelocation>
+               <md5sum>79057e4922ce7e23728d4c6d56d7c386</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E988</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-E989</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F240S</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F240L</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus G Pro</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F240K</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/cwm-6.0.4.5-e980.zip</zipfilelocation>
+               <md5sum>828dfb228fa0a3a5cc96de145fec7342</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-e980.zip</zipfile>
+               <zipfilelocation>LG-E980/twrp-2.6.3.0-e980.zip</zipfilelocation>
+               <md5sum>43b41bec4540b80494934db95532c450</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG Optimus GK</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-F220K</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_loki.zip</zipfile>
+               <zipfilelocation>disable_lge_security_loki.zip</zipfilelocation>
+               <md5sum>145ac4c71e23efa141e2cbf3221d7455</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-f220.zip</zipfile>
+               <zipfilelocation>LG-F220/cwm-6.0.4.5-f220.zip</zipfilelocation>
+               <md5sum>1af780c9334dc5e254048e20a5cb2719</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-f220.zip</zipfile>
+               <zipfilelocation>LG-F220/twrp-2.6.3.0-f220.zip</zipfilelocation>
+               <md5sum>12060c8ea7b7377b3c36047cc98f6325</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_apq8064.zip</zipfile>
+               <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
+               <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_apq8064.zip</zipfile>
+               <zipfilelocation>restore_efs_apq8064.zip</zipfilelocation>
+               <md5sum>279cfff702d47c0aaffb1dc2ea79579d</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Att</string>
+         </carrier>
+         <model>LG-D800</model>
+         <firmware>
+            <string>d80010d</string>
+            <string>d80010o</string>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-d800.zip</zipfile>
+               <zipfilelocation>LG-D800/cwm-6.0.4.5-d800.zip</zipfilelocation>
+               <md5sum>4e1ee600bc3853ffc431044788f5de85</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-d800.zip</zipfile>
+               <zipfilelocation>LG-D800/twrp-2.6.3.0-d800.zip</zipfilelocation>
+               <md5sum>629a19a4b0aa61ffb39f0eea1ff28a73</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Bell</string>
+            <string>Tmobile</string>
+         </carrier>
+         <model>LG-D801</model>
+         <firmware>
+            <string>d80110d</string>
+            <string>d80110o</string>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-d801.zip</zipfile>
+               <zipfilelocation>LG-D801/cwm-6.0.4.5-d801.zip</zipfilelocation>
+               <md5sum>e799786492a22546ff47894dbedd2edc</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-d801.zip</zipfile>
+               <zipfilelocation>LG-D801/twrp-2.6.3.0-d801.zip</zipfilelocation>
+               <md5sum>e68e615ff81848fdd5783bb3698909ad</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-D802</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-d802.zip</zipfile>
+               <zipfilelocation>LG-D802/cwm-6.0.4.5-d802.zip</zipfilelocation>
+               <md5sum>923490326fa0674754c21f1861e252ca</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-d802.zip</zipfile>
+               <zipfilelocation>LG-D802/twrp-2.6.3.0-d802.zip</zipfilelocation>
+               <md5sum>0a4f4eed6290f5d0101498281f5c8f94</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Rogers</string>
+         </carrier>
+         <model>LG-D803</model>
+         <firmware>
+            <string>d80310d</string>
+            <string>d80310o</string>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-d803.zip</zipfile>
+               <zipfilelocation>LG-D803/cwm-6.0.4.5-d803.zip</zipfilelocation>
+               <md5sum>fd6dcf17739a063a625c7fd85eec58ad</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-d803.zip</zipfile>
+               <zipfilelocation>LG-D803/twrp-2.6.3.0-d803.zip</zipfilelocation>
+               <md5sum>65ac71b095c38f7ad298d5fa8e056144</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>any</string>
+         </carrier>
+         <model>LG-D805</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-d802.zip</zipfile>
+               <zipfilelocation>LG-D802/cwm-6.0.4.5-d802.zip</zipfilelocation>
+               <md5sum>923490326fa0674754c21f1861e252ca</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-d802.zip</zipfile>
+               <zipfilelocation>LG-D802/twrp-2.6.3.0-d802.zip</zipfilelocation>
+               <md5sum>0a4f4eed6290f5d0101498281f5c8f94</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Sprint</string>
+         </carrier>
+         <model>LG-LS980</model>
+         <firmware>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-ls980.zip</zipfile>
+               <zipfilelocation>LG-LS980/cwm-6.0.4.5-ls980.zip</zipfilelocation>
+               <md5sum>d4581acedd233558751094915747e70c</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-ls980.zip</zipfile>
+               <zipfilelocation>LG-LS980/twrp-2.6.3.0-ls980.zip</zipfilelocation>
+               <md5sum>48537116e0c40336d17de113dba44f99</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Verizion</string>
+         </carrier>
+         <model>LG-VS980</model>
+         <firmware>
+            <string>VS98010B</string>
+            <string>VS98011A</string>
+            <string>VS98012B</string>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-vs980.zip</zipfile>
+               <zipfilelocation>LG-VS980/cwm-6.0.4.5-vs980.zip</zipfilelocation>
+               <md5sum>272d230082fadfdf4698db3e8ca9a015</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-vs980.zip</zipfile>
+               <zipfilelocation>LG-VS980/twrp-2.6.3.0-vs980.zip</zipfilelocation>
+               <md5sum>c4658f06e5939532807fd2f0be483129</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Verizion</string>
+         </carrier>
+         <model>VS980 4G</model>
+         <firmware>
+            <string>VS98010B</string>
+            <string>VS98011A</string>
+            <string>VS98012B</string>
+            <string>any</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>e8524ee0ec96d73dbc34ae46916ec12a</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>CWM-6.0.4.5</name>
+               <description>This will install CWM-6.0.4.5</description>
+               <version>1</version>
+               <zipfile>cwm-6.0.4.5-vs980.zip</zipfile>
+               <zipfilelocation>LG-VS980/cwm-6.0.4.5-vs980.zip</zipfilelocation>
+               <md5sum>272d230082fadfdf4698db3e8ca9a015</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.0-vs980.zip</zipfile>
+               <zipfilelocation>LG-VS980/twrp-2.6.3.0-vs980.zip</zipfilelocation>
+               <md5sum>c4658f06e5939532807fd2f0be483129</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+            </action>
+         </actions>
+      </device>
+   </devices>
+</devices>

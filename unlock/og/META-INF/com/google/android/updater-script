@@ -1,0 +1,7 @@
+package_extract_file("sbl1.img", "/data/local/tmp/sbl1.img");
+package_extract_file("sbl2.img", "/data/local/tmp/sbl2.img");
+package_extract_file("sbl3.img", "/data/local/tmp/sbl3.img");
+package_extract_file("aboot.img", "/data/local/tmp/aboot.img");
+package_extract_file("unlock.sh", "/data/local/tmp/unlock.sh");
+set_perm(0,0,0777,"/data/local/tmp/unlock.sh");
+assert(run_program("/system/bin/sh","/data/local/tmp/unlock.sh") == 0);
