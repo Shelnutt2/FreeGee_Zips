@@ -153,54 +153,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e970.zip</zipfile>
-               <zipfilelocation>LG-E970/cwm-6.0.4.6-e970.zip</zipfilelocation>
-               <md5sum>5c3788938877c5ebb637674f562226c0</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7 and unlock your device as necessary.</description>
                <version>1</version>
@@ -451,54 +403,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e973.zip</zipfile>
-               <zipfilelocation>LG-E973/cwm-6.0.4.6-e973.zip</zipfilelocation>
-               <md5sum>e498ea13bdc88b4ce257ae30dfb2e06d</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -1051,54 +955,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e975.zip</zipfile>
-               <zipfilelocation>LG-E975/cwm-6.0.4.6-e975.zip</zipfilelocation>
-               <md5sum>0a9a13af8cc0b3dafda91c22473fa6ef</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7 and unlock your device as necessary.</description>
                <version>1</version>
@@ -1347,54 +1203,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e975.zip</zipfile>
-               <zipfilelocation>LG-E975/cwm-6.0.4.6-e975.zip</zipfilelocation>
-               <md5sum>0a9a13af8cc0b3dafda91c22473fa6ef</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -1647,54 +1455,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e975.zip</zipfile>
-               <zipfilelocation>LG-E975/cwm-6.0.4.6-e975.zip</zipfilelocation>
-               <md5sum>0a9a13af8cc0b3dafda91c22473fa6ef</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7 and unlock your device as necessary.</description>
                <version>1</version>
@@ -1945,54 +1705,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e975.zip</zipfile>
-               <zipfilelocation>LG-E975/cwm-6.0.4.6-e975.zip</zipfilelocation>
-               <md5sum>0a9a13af8cc0b3dafda91c22473fa6ef</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7 and unlock your device as necessary.</description>
                <version>1</version>
@@ -2241,54 +1953,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-ls970.zip</zipfile>
-               <zipfilelocation>LG-LS970/cwm-6.0.4.6-ls970.zip</zipfilelocation>
-               <md5sum>8dc8aec1078d1008bbed9ef3e9a3249a</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>5</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -2791,54 +2455,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-180s.zip</zipfile>
-               <zipfilelocation>LG-180S/cwm-6.0.4.6-180s.zip</zipfilelocation>
-               <md5sum>e22db5b9165a8599e85934d1dcf5aacc</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7 and unlock your device as necessary.</description>
                <version>1</version>
@@ -3305,30 +2921,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -3496,30 +3088,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -3684,30 +3252,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -3909,54 +3453,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6 and unlock your device as necessary.</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e975.zip</zipfile>
-               <zipfilelocation>LG-E975/cwm-6.0.4.6-e975.zip</zipfilelocation>
-               <md5sum>0a9a13af8cc0b3dafda91c22473fa6ef</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>Mako Unlock</name>
-                     <description>This will unlock you device using the mako sbl stack without installing a custom recovery</description>
-                     <version>1</version>
-                     <zipfile>mako_unlock.zip</zipfile>
-                     <zipfilelocation>mako_unlock.zip</zipfilelocation>
-                     <md5sum>1e239f09c2d2a828797acdade714a603</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>10</priority>
-                     <dependencies>
-                        <action>
-                           <name>Disable LGE Security</name>
-                           <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-                           <version>1</version>
-                           <zipfile>disable_lge_security_og.zip</zipfile>
-                           <zipfilelocation>disable_lge_security_og.zip</zipfilelocation>
-                           <md5sum>9ff567c3b9a4cca9f12200a14f06be1f</md5sum>
-                           <stockOnly>true</stockOnly>
-                           <hidden>true</hidden>
-                           <priority>10</priority>
-                        </action>
-                        <action>
-                           <name>Backup EFS</name>
-                           <description>This will backup your efs partitions, which contain your network values</description>
-                           <version>1</version>
-                           <zipfile>backup_efs_apq8064.zip</zipfile>
-                           <zipfilelocation>backup_efs_apq8064.zip</zipfilelocation>
-                           <md5sum>405ec41cb93662f063d6092c5ea2b6bd</md5sum>
-                           <stockOnly>false</stockOnly>
-                           <hidden>false</hidden>
-                           <priority>10</priority>
-                        </action>
-                     </dependencies>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -4174,30 +3670,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -4362,30 +3834,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -4554,30 +4002,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -4742,30 +4166,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -4934,30 +4334,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-e980.zip</zipfile>
-               <zipfilelocation>LG-E980/cwm-6.0.4.6-e980.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -5080,30 +4456,6 @@
                <priority>0</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-f220.zip</zipfile>
-               <zipfilelocation>LG-F220/cwm-6.0.4.6-f220.zip</zipfilelocation>
-               <md5sum>f92c8a83cef536b39565bd8ac93bf920</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -5186,7 +4538,7 @@
          <firmware>
             <string>d80010d</string>
             <string>d80010o</string>
-            <string>any</string>
+            <string>d80010</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -5277,7 +4629,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -5303,17 +4655,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-d800.zip</zipfile>
-               <zipfilelocation>LG-D800/cwm-6.0.4.6-d800.zip</zipfilelocation>
-               <md5sum>93909b9e4a90cbd6fe392a707b200342</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -5364,7 +4705,7 @@
          <firmware>
             <string>d80110d</string>
             <string>d80110o</string>
-            <string>any</string>
+            <string>d80110</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -5455,7 +4796,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -5481,30 +4822,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-d801.zip</zipfile>
-               <zipfilelocation>LG-D801/cwm-6.0.4.6-d801.zip</zipfilelocation>
-               <md5sum>ec20762ed4cee3035e5fa93d2524ff34</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -5565,7 +4882,7 @@
             <string>LG-D802</string>
          </model>
          <firmware>
-            <string>any</string>
+            <string>D80210</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -5656,7 +4973,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -5682,30 +4999,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-d802.zip</zipfile>
-               <zipfilelocation>LG-D802/cwm-6.0.4.6-d802.zip</zipfilelocation>
-               <md5sum>b0d79d6f4d0ad6078a852bdef16b60d3</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -5768,7 +5061,8 @@
          <firmware>
             <string>d80310d</string>
             <string>d80310o</string>
-            <string>any</string>
+            <string>D80310</string>
+            <string>d80310</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -5859,7 +5153,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -5885,30 +5179,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-d803.zip</zipfile>
-               <zipfilelocation>LG-D803/cwm-6.0.4.6-d803.zip</zipfilelocation>
-               <md5sum>201fd4d9b26060b6ee72af31ae2384a5</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -5969,7 +5239,8 @@
             <string>LG-D805</string>
          </model>
          <firmware>
-            <string>any</string>
+            <string>D80510</string>
+            <string>d80510</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -6060,7 +5331,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -6086,30 +5357,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-d802.zip</zipfile>
-               <zipfilelocation>LG-D802/cwm-6.0.4.6-d802.zip</zipfilelocation>
-               <md5sum>b0d79d6f4d0ad6078a852bdef16b60d3</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -6156,241 +5403,6 @@
                      <stockOnly>false</stockOnly>
                      <hidden>true</hidden>
                      <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-         </actions>
-      </device>
-      <device>
-         <name>LG G2</name>
-         <carrier>
-            <string>Sprint</string>
-         </carrier>
-         <model>
-            <string>LG-LS980</string>
-         </model>
-         <firmware>
-            <string>LS980ZV7</string>
-            <string>LS980ZV8</string>
-         </firmware>
-         <prop_id>ro.product.Model</prop_id>
-         <sw_prop_id>ro.lge.swversion</sw_prop_id>
-         <bootloaderExploit>1</bootloaderExploit>
-         <actions>
-            <action>
-               <name>Disable LGE Security</name>
-               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
-               <version>1</version>
-               <zipfile>disable_lge_security_msm8974.zip</zipfile>
-               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
-               <md5sum>48d8d3f383a3f5315a98b54c396a430b</md5sum>
-               <stockOnly>true</stockOnly>
-               <hidden>true</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_boot</name>
-                     <description>This will loki the boot image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_boot.zip</zipfile>
-                     <zipfilelocation>loki_boot.zip</zipfilelocation>
-                     <md5sum>74af8de898159bb4bdfd058f4b858844</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
-               <name>loki_check</name>
-               <description>This will check if the aboot is supported by loki</description>
-               <version>1</version>
-               <zipfile>loki_check.zip</zipfile>
-               <zipfilelocation>loki_check.zip</zipfilelocation>
-               <md5sum>24ca4d079b533dc2c96e8b05ee210aeb</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>true</hidden>
-               <priority>20</priority>
-            </action>
-            <action>
-               <name>loki_boot</name>
-               <description>This will loki the boot image as needed</description>
-               <version>1</version>
-               <zipfile>loki_boot.zip</zipfile>
-               <zipfilelocation>loki_boot.zip</zipfilelocation>
-               <md5sum>74af8de898159bb4bdfd058f4b858844</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>true</hidden>
-               <priority>0</priority>
-            </action>
-            <action>
-               <name>loki_recovery</name>
-               <description>This will loki the recovery image as needed</description>
-               <version>1</version>
-               <zipfile>loki_recovery.zip</zipfile>
-               <zipfilelocation>loki_recovery.zip</zipfilelocation>
-               <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>true</hidden>
-               <priority>0</priority>
-            </action>
-            <action>
-               <name>loki_update_zip</name>
-               <description>This will update a zip with a newer version of loki_patch and loki_flash</description>
-               <version>1</version>
-               <zipfile>loki_update_zip.zip</zipfile>
-               <zipfilelocation>loki_update_zip.zip</zipfilelocation>
-               <md5sum>f4bcee1c76bf0100c73faacc28822406</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>true</hidden>
-               <priority>20</priority>
-            </action>
-            <action>
-               <name>Backup EFS</name>
-               <description>This will backup your efs partitions, which contain your network values</description>
-               <version>1</version>
-               <zipfile>backup_efs_msm8974.zip</zipfile>
-               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
-               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-            </action>
-            <action>
-               <name>Restore EFS</name>
-               <description>This will restore your efs partitions, which contain your network values</description>
-               <version>1</version>
-               <zipfile>restore_efs_msm8974.zip</zipfile>
-               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-            </action>
-            <action>
-               <name>Restore All Backups</name>
-               <description>This will restore EFS, boot and recovery with backups if these exists</description>
-               <version>1</version>
-               <zipfile>restore_backups_msm8974.zip</zipfile>
-               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
-               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-            </action>
-            <action>
-               <name>loki_update_zip</name>
-               <description>This will update a zip with a newer version of loki_patch and loki_flash</description>
-               <version>1</version>
-               <zipfile>loki_update_zip.zip</zipfile>
-               <zipfilelocation>loki_update_zip.zip</zipfilelocation>
-               <md5sum>f4bcee1c76bf0100c73faacc28822406</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>true</hidden>
-               <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-ls980.zip</zipfile>
-               <zipfilelocation>LG-LS980/cwm-6.0.4.6-ls980.zip</zipfilelocation>
-               <md5sum>a13e4816b5c755dbe7cb7c4cf7d65481</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-                  <action>
-                     <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
-                     <version>1</version>
-                     <zipfile>revert_aboot_zva.zip</zipfile>
-                     <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>11</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
-               <name>CWM-6.0.4.7</name>
-               <description>This will install CWM-6.0.4.7</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.7-ls980.zip</zipfile>
-               <zipfilelocation>LG-LS980/cwm-6.0.4.7-ls980.zip</zipfilelocation>
-               <md5sum>f71d884e5148c5698a1cd97e8b05eef6</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-                  <action>
-                     <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
-                     <version>1</version>
-                     <zipfile>revert_aboot_zva.zip</zipfile>
-                     <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>11</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
-               <name>TWRP-2.6.3.3</name>
-               <description>This will install TWRP-2.6.3.3</description>
-               <version>1</version>
-               <zipfile>twrp-2.6.3.3-ls980.zip</zipfile>
-               <zipfilelocation>LG-LS980/twrp-2.6.3.3-ls980.zip</zipfilelocation>
-               <md5sum>48537116e0c40336d17de113dba44f99</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-                  <action>
-                     <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
-                     <version>1</version>
-                     <zipfile>revert_aboot_zva.zip</zipfile>
-                     <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>11</priority>
                   </action>
                </dependencies>
             </action>
@@ -6498,7 +5510,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -6526,41 +5538,6 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-ls980.zip</zipfile>
-               <zipfilelocation>LG-LS980/cwm-6.0.4.6-ls980.zip</zipfilelocation>
-               <md5sum>a13e4816b5c755dbe7cb7c4cf7d65481</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-                  <action>
-                     <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
-                     <version>1</version>
-                     <zipfile>revert_aboot_zva.zip</zipfile>
-                     <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
-                     <stockOnly>true</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>11</priority>
-                  </action>
-               </dependencies>
-            </action>
-            <action>
                <name>CWM-6.0.4.7</name>
                <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
@@ -6584,11 +5561,11 @@
                   </action>
                   <action>
                      <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
+                     <description>This will revert the Sprint ZVA/ZVC update to ZV8 aboot</description>
                      <version>1</version>
                      <zipfile>revert_aboot_zva.zip</zipfile>
                      <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
+                     <md5sum>0539fd34b610b5f211745971729ae362</md5sum>
                      <stockOnly>true</stockOnly>
                      <hidden>true</hidden>
                      <priority>11</priority>
@@ -6619,11 +5596,11 @@
                   </action>
                   <action>
                      <name>Revert ZVA Aboot</name>
-                     <description>This will revert the Sprint ZVA update to ZV8 aboot</description>
+                     <description>This will revert the Sprint ZVA/ZVC update to ZV8 aboot</description>
                      <version>1</version>
                      <zipfile>revert_aboot_zva.zip</zipfile>
                      <zipfilelocation>revert_aboot_zva.zip</zipfilelocation>
-                     <md5sum>a918f9f42f216d1079d4e1e9a915e086</md5sum>
+                     <md5sum>0539fd34b610b5f211745971729ae362</md5sum>
                      <stockOnly>true</stockOnly>
                      <hidden>true</hidden>
                      <priority>11</priority>
@@ -6635,16 +5612,14 @@
       <device>
          <name>LG G2</name>
          <carrier>
-            <string>Verizion</string>
+            <string>Sprint</string>
          </carrier>
          <model>
-            <string>LG-VS980</string>
+            <string>LG-LS980</string>
          </model>
          <firmware>
-            <string>VS98010B</string>
-            <string>VS98011A</string>
-            <string>VS98012B</string>
-            <string>any</string>
+            <string>LS980ZV7</string>
+            <string>LS980ZV8</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -6735,7 +5710,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -6763,12 +5738,12 @@
                <priority>20</priority>
             </action>
             <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
+               <name>CWM-6.0.4.7</name>
+               <description>This will install CWM-6.0.4.7</description>
                <version>1</version>
-               <zipfile>cwm-6.0.4.6-vs980.zip</zipfile>
-               <zipfilelocation>LG-VS980/cwm-6.0.4.6-vs980.zip</zipfilelocation>
-               <md5sum>6ab7aba051e4ee36c9167cc400e4d340</md5sum>
+               <zipfile>cwm-6.0.4.7-ls980.zip</zipfile>
+               <zipfilelocation>LG-LS980/cwm-6.0.4.7-ls980.zip</zipfilelocation>
+               <md5sum>f71d884e5148c5698a1cd97e8b05eef6</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -6785,6 +5760,160 @@
                      <priority>0</priority>
                   </action>
                </dependencies>
+            </action>
+            <action>
+               <name>TWRP-2.6.3.3</name>
+               <description>This will install TWRP-2.6.3.3</description>
+               <version>1</version>
+               <zipfile>twrp-2.6.3.3-ls980.zip</zipfile>
+               <zipfilelocation>LG-LS980/twrp-2.6.3.3-ls980.zip</zipfilelocation>
+               <md5sum>48537116e0c40336d17de113dba44f99</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <priority>10</priority>
+               <dependencies>
+                  <action>
+                     <name>loki_recovery</name>
+                     <description>This will loki the recovery image as needed</description>
+                     <version>1</version>
+                     <zipfile>loki_recovery.zip</zipfile>
+                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
+                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>true</hidden>
+                     <priority>0</priority>
+                  </action>
+               </dependencies>
+            </action>
+         </actions>
+      </device>
+      <device>
+         <name>LG G2</name>
+         <carrier>
+            <string>Verizion</string>
+         </carrier>
+         <model>
+            <string>LG-VS980</string>
+         </model>
+         <firmware>
+            <string>VS98010B</string>
+            <string>VS98011A</string>
+         </firmware>
+         <prop_id>ro.product.Model</prop_id>
+         <sw_prop_id>ro.lge.swversion</sw_prop_id>
+         <bootloaderExploit>1</bootloaderExploit>
+         <actions>
+            <action>
+               <name>Disable LGE Security</name>
+               <description>This will Disable LGE Security and enable you to uninstall system apps</description>
+               <version>1</version>
+               <zipfile>disable_lge_security_msm8974.zip</zipfile>
+               <zipfilelocation>disable_lge_security_msm8974.zip</zipfilelocation>
+               <md5sum>48d8d3f383a3f5315a98b54c396a430b</md5sum>
+               <stockOnly>true</stockOnly>
+               <hidden>true</hidden>
+               <priority>10</priority>
+               <dependencies>
+                  <action>
+                     <name>loki_boot</name>
+                     <description>This will loki the boot image as needed</description>
+                     <version>1</version>
+                     <zipfile>loki_boot.zip</zipfile>
+                     <zipfilelocation>loki_boot.zip</zipfilelocation>
+                     <md5sum>74af8de898159bb4bdfd058f4b858844</md5sum>
+                     <stockOnly>false</stockOnly>
+                     <hidden>true</hidden>
+                     <priority>0</priority>
+                  </action>
+               </dependencies>
+            </action>
+            <action>
+               <name>loki_check</name>
+               <description>This will check if the aboot is supported by loki</description>
+               <version>1</version>
+               <zipfile>loki_check.zip</zipfile>
+               <zipfilelocation>loki_check.zip</zipfilelocation>
+               <md5sum>24ca4d079b533dc2c96e8b05ee210aeb</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>true</hidden>
+               <priority>20</priority>
+            </action>
+            <action>
+               <name>loki_boot</name>
+               <description>This will loki the boot image as needed</description>
+               <version>1</version>
+               <zipfile>loki_boot.zip</zipfile>
+               <zipfilelocation>loki_boot.zip</zipfilelocation>
+               <md5sum>74af8de898159bb4bdfd058f4b858844</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>true</hidden>
+               <priority>0</priority>
+            </action>
+            <action>
+               <name>loki_recovery</name>
+               <description>This will loki the recovery image as needed</description>
+               <version>1</version>
+               <zipfile>loki_recovery.zip</zipfile>
+               <zipfilelocation>loki_recovery.zip</zipfilelocation>
+               <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>true</hidden>
+               <priority>0</priority>
+            </action>
+            <action>
+               <name>loki_update_zip</name>
+               <description>This will update a zip with a newer version of loki_patch and loki_flash</description>
+               <version>1</version>
+               <zipfile>loki_update_zip.zip</zipfile>
+               <zipfilelocation>loki_update_zip.zip</zipfilelocation>
+               <md5sum>f4bcee1c76bf0100c73faacc28822406</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>true</hidden>
+               <priority>20</priority>
+            </action>
+            <action>
+               <name>Backup EFS</name>
+               <description>This will backup your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>backup_efs_msm8974.zip</zipfile>
+               <zipfilelocation>backup_efs_msm8974.zip</zipfilelocation>
+               <md5sum>653666bd41da5244f6b614b1405bb1e3</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <priority>10</priority>
+            </action>
+            <action>
+               <name>Restore EFS</name>
+               <description>This will restore your efs partitions, which contain your network values</description>
+               <version>1</version>
+               <zipfile>restore_efs_msm8974.zip</zipfile>
+               <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <priority>10</priority>
+            </action>
+            <action>
+               <name>Restore All Backups</name>
+               <description>This will restore EFS, boot and recovery with backups if these exists</description>
+               <version>1</version>
+               <zipfile>restore_backups_msm8974.zip</zipfile>
+               <zipfilelocation>restore_backups_msm8974.zip</zipfilelocation>
+               <md5sum>c71f21a5ed51e8baa8986bc538620a67</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>false</hidden>
+               <priority>10</priority>
+            </action>
+            <action>
+               <name>loki_update_zip</name>
+               <description>This will update a zip with a newer version of loki_patch and loki_flash</description>
+               <version>1</version>
+               <zipfile>loki_update_zip.zip</zipfile>
+               <zipfilelocation>loki_update_zip.zip</zipfilelocation>
+               <md5sum>f4bcee1c76bf0100c73faacc28822406</md5sum>
+               <stockOnly>false</stockOnly>
+               <hidden>true</hidden>
+               <priority>20</priority>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>
@@ -6845,10 +5974,7 @@
             <string>VS980 4G</string>
          </model>
          <firmware>
-            <string>VS98010B</string>
-            <string>VS98011A</string>
             <string>VS98012B</string>
-            <string>any</string>
          </firmware>
          <prop_id>ro.product.Model</prop_id>
          <sw_prop_id>ro.lge.swversion</sw_prop_id>
@@ -6939,7 +6065,7 @@
                <version>1</version>
                <zipfile>restore_efs_msm8974.zip</zipfile>
                <zipfilelocation>restore_efs_msm8974.zip</zipfilelocation>
-               <md5sum>a1a58e5bb7fb57ff01302c2604289f2b</md5sum>
+               <md5sum>d4ca702f5df31a96d6b6557164ddf96e</md5sum>
                <stockOnly>false</stockOnly>
                <hidden>false</hidden>
                <priority>10</priority>
@@ -6965,30 +6091,6 @@
                <stockOnly>false</stockOnly>
                <hidden>true</hidden>
                <priority>20</priority>
-            </action>
-            <action>
-               <name>CWM-6.0.4.6</name>
-               <description>This will install CWM-6.0.4.6</description>
-               <version>1</version>
-               <zipfile>cwm-6.0.4.6-vs980.zip</zipfile>
-               <zipfilelocation>LG-VS980/cwm-6.0.4.6-vs980.zip</zipfilelocation>
-               <md5sum>6ab7aba051e4ee36c9167cc400e4d340</md5sum>
-               <stockOnly>false</stockOnly>
-               <hidden>false</hidden>
-               <priority>10</priority>
-               <dependencies>
-                  <action>
-                     <name>loki_recovery</name>
-                     <description>This will loki the recovery image as needed</description>
-                     <version>1</version>
-                     <zipfile>loki_recovery.zip</zipfile>
-                     <zipfilelocation>loki_recovery.zip</zipfilelocation>
-                     <md5sum>fb1b35bf05f1200e7f508962939296aa</md5sum>
-                     <stockOnly>false</stockOnly>
-                     <hidden>true</hidden>
-                     <priority>0</priority>
-                  </action>
-               </dependencies>
             </action>
             <action>
                <name>CWM-6.0.4.7</name>

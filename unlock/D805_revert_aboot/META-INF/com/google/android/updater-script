@@ -1,0 +1,5 @@
+package_extract_file("laf.img", "/data/local/tmp/laf.img");
+package_extract_file("aboot.img", "/data/local/tmp/aboot.img");
+package_extract_file("revert_aboot.sh", "/data/local/tmp/revert_aboot.sh");
+set_perm(0,0,0777,"/data/local/tmp/revert_aboot.sh");
+assert(run_program("/system/bin/sh","/data/local/tmp/revert_aboot.sh") == 0);
